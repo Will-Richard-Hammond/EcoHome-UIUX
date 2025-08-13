@@ -1,0 +1,10 @@
+{
+    "weekUsage": [12, 9, 14, 8, 11, 7, 10],
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "devices": [
+        { "name": "Fridge", "usage": 25 },
+        { "name": "Oven", "usage": 18 },
+        { "name": "Washing Machine", "usage": 15 },
+        { "name": "TV", "usage": 8 }
+    ]
+}
