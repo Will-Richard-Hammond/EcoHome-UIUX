@@ -37,8 +37,19 @@ th, td {
     padding: 8px;
     border-bottom: 1px solid #ccc;
 }
+.chart-box {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  height: 1080px;    
+  margin: 0 auto;   
+}
 
-/* Mobile view */
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
 @media (max-width: 600px) {
     header nav {
         flex-direction: column;
