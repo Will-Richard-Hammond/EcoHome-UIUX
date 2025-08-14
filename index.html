@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>EcoHome — Dashboard</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="dashboard.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -54,14 +56,12 @@
       <div class="chart-box" role="img" aria-label="Line chart of weekly power usage in kilowatt-hours">
         <canvas id="usageChart"></canvas>
       </div>
+      
     </section>
   </main>
 
   <footer class="footer" role="contentinfo">
     <small><span id="year"></span> EcoHome Demo</small>
   </footer>
-
-<script src="data.js"></script>
-<script src="dashboard.js"></script>
 </body>
 </html>

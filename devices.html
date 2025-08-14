@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>EcoHome — Devices</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="data.js"></script>
+  <script defer src="devices.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -32,15 +34,17 @@
           <caption class="visually-hidden">Per-device weekly energy usage</caption>
           <thead>
             <tr>
-              <th scope="col">
-                Device
-              </th>
-              <th scope="col">
-                Usage (kWh)
-              </th>
+              <th scope="col">Device</th>
+              <th scope="col">Usage (kWh)</th>
             </tr>
           </thead>
           <tbody id="deviceTable"></tbody>
+          <tfoot>
+            <tr class="total-row">
+              <th scope="row">Total weekly energy</th>
+              <td id="deviceTotalCell">—</td>
+            </tr>
+          </tfoot>
         </table>
       </div>
     </section>
@@ -49,8 +53,5 @@
   <footer class="footer" role="contentinfo">
     <small><span id="year"></span> EcoHome Demo</small>
   </footer>
-
-<script src="data.js"></script>
-<script src="devices.js"></script>
 </body>
 </html>
