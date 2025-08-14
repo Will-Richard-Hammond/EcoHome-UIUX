@@ -49,13 +49,11 @@ canvas {
   display: block;
   max-width: 100%;
 }
-/* Active nav link */
 .nav-list a[aria-current="page"]{
   background: var(--panel);
   outline: 2px solid var(--border);
 }
 
-/* Advice page layout */
 .tips-grid{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
