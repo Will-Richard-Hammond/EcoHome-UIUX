@@ -6,10 +6,9 @@ Device usage table.
 Responsive layout for desktop and mobile.
 Accessibility: semantic HTML, alt text, ARIA labels.
 ## Tech Stack
-HTML5, CSS3, JavaScript
+HTML5, CSS3, JavaScript (used for dummy data too)
 Chart.js for data visualisation
-JSON for dummy data
 ## Live Demo
-TBC
+double click index.html and the demo should be available offline
 ## GitHub Classroom Link
-TBC
+[here](https://github.com/Will-Richard-Hammond/EcoHome-UIUX)
